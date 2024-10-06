@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3407860809151673512
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3407860809151673518}
+  - component: {fileID: 3407860809151673519}
+  m_Layer: 0
+  m_Name: EnemyManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3407860809151673518
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3407860809151673512}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.3154308, y: -1.5187609, z: -0.26959187}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3407860809151673519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3407860809151673512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af9d396a290397c40bcc6f732982db7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SpawnerUp: {fileID: 0}
+  m_SpawnerDown: {fileID: 0}
+  m_SpawnerLeft: {fileID: 0}
+  m_SpawnerRight: {fileID: 0}
+  m_InitialSpeed: 0.003
+  m_InitialEnemySpawnCooldown: 1.2
+  m_EnemyDeathScore: 10
+  m_IncrementSpeed: 0.0001
+  m_IncrementEnemySpawnCooldown: 0.005
+  m_Pool: {fileID: 0}
+  m_NEnemiesToIncrement: 10
+  m_ScoreText: {fileID: 0}
+  m_PlayerHealth: {fileID: 0}
+  m_MaxSpeed: 0.009
+  m_MinCooldown: 0.5
+  m_ParticlesPool: {fileID: 0}
